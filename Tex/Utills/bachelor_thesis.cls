@@ -1,3 +1,4 @@
+%!TEX root = ../thesis.tex
 % ********** Клас для написання пояснювальної записки **********
 % *********  до атестаційної роботи ступеня бакалавра **********
 % Розроблено з милиць, соломи та паличок Сергієм Яковлєвим
@@ -8,20 +9,20 @@
 
 % 1. Ідентифікуємо клас
 \ProvidesClass{Utills/bachelor_thesis} % [2024/05/01 v0.6 -- Пояснювальна записка до кваліфікаційної роботи бакалавра]
-% \NeedsTeXFormat{LaTeX2e} % потрібний формат
+\NeedsTeXFormat{LaTeX2e} % потрібний формат
 
 
 % 2. Завантажуємо "батьківський клас"
-\LoadClass[a4paper,ukrainian,oneside]{extreport}
+\LoadClass[a4paper,english,ukrainian,oneside]{extreport}
 
 
 % 3. Завантажуємо пакети
 
 % мовні пакети
-% \RequirePackage{cmap}                                   % для кодування шрифтів у pdf
+\RequirePackage{cmap}                                   % для кодування шрифтів у pdf
 \RequirePackage[T2A]{fontenc}                           % пакет для підтримки кирилічних шрифтів
 \RequirePackage[utf8]{inputenc}                         % пакет для підтримки текстів у кодуванні UTF-8
-\RequirePackage[english, ukrainian]{babel}               % пакет для підтримки української та російської мов
+\RequirePackage[english,ukrainian]{babel}               % пакет для підтримки української та російської мов
 \RequirePackage{amssymb,amsfonts,amsmath,amsthm,amscd}  % потрібні символи в режимі математичних формул
 \RequirePackage[backend=bibtex,style=numeric]{biblatex} % пакет BibLatex для коректної бібліографії
 
@@ -58,7 +59,7 @@
 
 % % стилі заголовків та змісту
 \RequirePackage[rm,small,raggedright]{titlesec}         % пакет для ручного керування стилем заголовків
-%\RequirePackage[titles,subfigure]{tocloft}              % пакет для ручного керування стилем змісту
+% \RequirePackage[titles,subfigure]{tocloft}              % пакет для ручного керування стилем змісту
 \RequirePackage[titles]{tocloft}                        % пакет для ручного керування стилем змісту
 
 \RequirePackage{url}                    % пакет для коректного представлення інтернет-посилань у "Переліку посилань"
@@ -67,7 +68,7 @@
 \RequirePackage{listings}               % пакет для відображення форматування вихідних кодів
 \RequirePackage{verbatim}               % пакет для кодів програм
 
-%\RequirePackage{xkeyval}                % пакет для параметричних команд (де я їх використовую?)
+% \RequirePackage{xkeyval}                % пакет для параметричних команд (де я їх використовую?)
 
 \RequirePackage{icomma}                 % пакет для нормальних пробілів після ком у десяткових дробах
 \RequirePackage{csquotes}               % для коректної роботи biblatex
@@ -125,7 +126,7 @@
 \DeclareCaptionLabelFormat{tablecap}{\hspace*{1.25cm}Таблиця #2}        % формат за промовчанням "Табл." не влаштовує
 \DeclareCaptionLabelFormat{figurecap}{Рисунок #2}                       % формат за промовчанням "Рис." не влаштовує
 
-\renewcommand{\thesubfigure}{\asbuk{subfigure}}
+% \renewcommand{\thesubfigure}{\asbuk{subfigure}}
 
 \captionsetup[table]{margin=0pt, singlelinecheck=false, labelfont=bf, textfont=normalfont, justification=justified, labelsep=endash, labelformat=tablecap, font = {Large, stretch = 1.5}} % формат для таблиць
 \captionsetup[figure]{justification=centering, labelsep=endash, labelfont=bf, textfont=normalfont, labelformat=figurecap, font = {Large, stretch = 1.5}} % формат для рисунків
