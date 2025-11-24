@@ -1,0 +1,151 @@
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.10.7)  24 NOV 2025 15:29
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/GitHub/BachelorDiploma/Tex/thesis.tex
+(c:/GitHub/BachelorDiploma/Tex/thesis.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(Utills/bachelor_thesis.cls
+Document Class: Utills/bachelor_thesis 
+(C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\extreport.cls
+Document Class: extreport 1996/10/08 v1.0 Non Standard LaTeX document class
+(C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+) (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/base\exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen148
+)
+\c@part=\count271
+\c@chapter=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen149
+) (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+ (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
+File: t2aenc.def 2023/11/07 v1.0k Cyrillic encoding definition file
+)
+LaTeX Font Info:    Trying to load font information for T2A+lmr on input line 116.
+LaTeX Font Info:    No file T2Almr.fd. on input line 116.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 116.
+ (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+
+LaTeX Font Warning: Font shape `T2A/lmr/m/n' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 116.
+
+) (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count280
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2049.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2050.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2051.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
+\U@D=\dimen150
+\l@unhyphenated=\language79
+ (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count281
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 12.
+)
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+) (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/babel-ukrainian\ukraineb.ldf
+File: ukraineb.ldf 2020/10/14 1.4e Ukrainian support for the Babel system
+ (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/uk\babel-ukrainian.tex
+Package babel Info: Importing font and identification data for ukrainian
+(babel)             from babel-uk.ini. Reported on input line 12.
+)
+Package babel Info: Making " an active character on input line 97.
+Package babel Info: Default for \cyrdash is provided on input line 142.
+Package ukrainian.ldf Info: Executing the 3.9 or latter on input line 148.
+Package ukrainian.ldf Info: Executing the post 3.9 branch for dates on input line 226.
+))) (C:\Users\dadmo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2025-06-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count282
+\g__pdfannot_backend_int=\count283
+\g__pdfannot_backend_link_int=\count284
+) (thesis.aux)
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+Package babel Info: 'ukrainian' activates 'ukrainian' shorthands.
+(babel)             Reported on input line 19.
+LaTeX Info: Redefining \th on input line 19.
+ (thesis.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2519 strings out of 403246
+ 46396 string characters out of 5460781
+ 440752 words of memory out of 5000000
+ 30992 multiletter control sequences out of 15000+600000
+ 627630 words of font info for 42 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 64i,1n,70p,343b,238s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+No pages of output.

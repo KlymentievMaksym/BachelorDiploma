@@ -1,0 +1,35 @@
+# Fdb version 4
+["xdvipdfmx"] 0 "thesis.xdv" "thesis.pdf" "thesis" 0 -1
+  "thesis.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "thesis.pdf"
+  (rewritten before read)
+["xelatex"] 1763990970.18657 "c:/GitHub/BachelorDiploma/Tex/thesis.tex" "thesis.xdv" "thesis" 1763990970.64669 1
+  "C:/Users/dadmo/AppData/Local/MiKTeX/fonts/tfm/lh/lh-t2a/larm1000.tfm" 1759851977 3220 0e417eaf233b160335902e97259a6c77 ""
+  "C:/Users/dadmo/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1759852846 27042510 e724f66c2ad57311aa25dd76190e2bcf ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1754220793 146665 9149bce97203d4030d7cbe4f4e85dfc4 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-en.ini" 1754220794 3966 caeee5a9e5771d4446aa1ca9015ba1b2 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-english.tex" 1754220794 374 a9c05f002d9437e6de45ac1cc23d56c2 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/uk/babel-uk.ini" 1754220797 5919 7f04f6617f8f47c00ae122397a455732 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/uk/babel-ukrainian.tex" 1754220797 375 752adf30247e73509af6b0c99efe3c2b ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/generic/babel/xebabel.def" 1754220793 17499 33de478a465ed8b3ae2ed4bbabc15cca ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/arabi/bblopts.cfg" 1705750854 902 c30e5c373bc58bde21f8f63a3091626f ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/babel-english/english.ldf" 1623001666 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/babel-ukrainian/ukraineb.ldf" 1610876790 17162 a07fe8757c4d33e08ead21654224f206 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/base/exscale.sty" 1749467999 2581 410e238d5562ac0c02c3a54e6b0161aa ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/base/fontenc.sty" 1749467999 5275 2f50a1b91fdc3c2c6ff41843a6854061 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty" 1749467999 5048 0270515b828149155424600fd2d58ac5 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1749467999 8448 686612a86f0e04f41ea577f5ec7e83d8 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/cyrillic/t2acmr.fd" 1718270610 2556 2f35e21d371ff2a89907e962d45fc1f1 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/cyrillic/t2aenc.def" 1718270610 12179 ab14d8093d3e66c13310bf24be0c2cb5 ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/extsizes/extreport.cls" 969409740 23786 cbd79291aa0922c48a73753b97cabb5f ""
+  "C:/Users/dadmo/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-xetex.def" 1751005717 32544 8ab730024c05d74f83bc9b31c146019c ""
+  "Utills/bachelor_thesis.cls" 1763990891 24907 f86532552aed47408e171b39008f0120 ""
+  "c:/GitHub/BachelorDiploma/Tex/thesis.tex" 1763990968 3844 baef5ef350575a4c5ba41eb2e8412de0 ""
+  "thesis.aux" 1763990970 124 101806ebb7d1b32d8acc4647e9cb13cf "xelatex"
+  "thesis.tex" 1763990968 3844 baef5ef350575a4c5ba41eb2e8412de0 ""
+  (generated)
+  "thesis.aux"
+  "thesis.log"
+  "thesis.xdv"
+  (rewritten before read)
