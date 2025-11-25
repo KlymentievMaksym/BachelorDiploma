@@ -5,14 +5,14 @@
 \documentclass{Utills/bachelor_thesis}
 
 % Додаткові пакети вносіть у цей файл
-\input{Utills/01_packages}
+\input{Utills/packages}
 \addbibresource{Utills/thesis.bib}
 
 % Додаткові визначення та перевизначення команд вносіть у цей файл
 \input{Utills/02_redefinitions}
 
 % % Бюрократичні відомості про автора роботи
-\input{Utills/03_data}
+\input{Utills/data}
 
 
 % Починаємо верстку документа
@@ -22,14 +22,14 @@
 \setfontsize{14}
 
 % % Створюємо титульну сторінку
-\input{Utills/a00_title}
+\input{Utills/title}
 
 % Створюємо завдання
-\input{Utills/a01_specification}
+\input{Utills/specification}
 
 % Створюємо анотації
 % \setcounter{page}{4}    %!!! -- продумати, як автоматизувати номер сторінки
-\input{Chapters/a1_abstract}
+\input{Chapters/abstract}
 
 % Створюємо зміст
 %\pagenumbering{gobble}
@@ -40,12 +40,12 @@
 
 % Створюємо перелік умовних позначень, скорочень і термінів
 % Якщо цей розділ вам не потрібен, просто закоментуйте два наступних рядка
-\shortings
-\input{Chapters/a2_shortings}
+% \shortings
+% \input{Chapters/a2_shortings}
 
 % Створюємо вступ
 \intro
-\input{Chapters/a3_introduction}
+\input{Chapters/introduction}
 
 % Додаємо глави
 % Якщо ваша робота містить менше або більше глав - модифікуйте наступні 
@@ -57,7 +57,7 @@
 
 % Створюємо висновки
 \conclusions
-\input{Chapters/w1_conclusions}
+\input{Chapters/conclusions}
 
 % Додаємо бібліографію
 %%%%%%% Якщо ви не використовуєте bibtex, оце все треба закоментувати звідси...
