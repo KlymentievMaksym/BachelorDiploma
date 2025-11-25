@@ -1,0 +1,238 @@
+%!TEX root = ../thesis.tex
+% Encoding: UTF-8
+
+% !!! Зверніть увагу, як заповнюється  джерела, в яких авторів більше ніж один !!! 
+% !!! Кома після прізвища, а після ініціалів ключове слово "and" !!!
+
+% author = "Василенко, М. В.",
+% title = "Теорiя коливань: Навчальний посiбник",
+% address = "К.",
+% publisher = "Вища школа",
+% year = 1992,
+% numpages = 430,
+% language = "ukrainian"
+
+% title = "Обчислювальна i прикладна математика: Зб.наук.пр.",
+% address = "К.",
+% publisher = "Либiдь",
+% year = 1993,
+% numpages = 99,
+% language = "ukrainian"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SECTION 1 — METHODS, SURVEYS, FRAMEWORKS, MULTI-METHOD WORKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@online{2020_survey_anwar,
+    author = {Anwar, S. and Tahir, M. and Li, C. and Mian, A. and Khan, F. S. and Muzaffar, A. W.},
+    title = {Image colorization: A survey and dataset},
+    year = {2020},
+    url = {https://arxiv.org/pdf/2008.10774},
+    note = {arXiv preprint arXiv:2008.10774},
+}
+
+@article{bansal2023cold,
+  title={Cold Diffusion: Inverting arbitrary image transforms without noise},
+  author={Bansal, Arpit and Borgnia, Eric and Chu, Hong-Min and Li, Jie and Kazemi, Hossein and Huang, Furong and others},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={41259--41282},
+  year={2023}
+}
+
+@article{blattmann2023stablevideo,
+  title={Stable Video Diffusion: Scaling latent video diffusion models to large datasets},
+  author={Blattmann, Andreas and Dockhorn, Tim and Kulal, Shubham and Mendelevitch, Danny and Kilian, Markus and Lorenz, Dominik and others},
+  journal={arXiv preprint arXiv:2311.15127},
+  year={2023}
+}
+
+@inproceedings{he2018deepExemplar,
+  title={Deep exemplar-based colorization},
+  author={He, Mingming and Chen, Dong and Liao, Jing and Sander, Pedro and Yuan, Lu},
+  booktitle={ACM Transactions on Graphics (TOG)},
+  volume={37},
+  number={4},
+  pages={1--16},
+  year={2018},
+  publisher={ACM}
+}
+
+@inproceedings{larsson2016learning,
+  title={Learning representations for automatic colorization},
+  author={Larsson, Gustav and Maire, Michael and Shakhnarovich, Gregory},
+  booktitle={European Conference on Computer Vision},
+  pages={577--593},
+  year={2016},
+  publisher={Springer}
+}
+
+@inproceedings{lei2019videoColorization,
+  title={Fully automatic video colorization with self-regularization and diversity},
+  author={Lei, Chuan and Chen, Qifeng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3753--3761},
+  year={2019}
+}
+
+@article{liu2024temporal,
+  title={Temporally consistent video colorization with deep feature propagation and self-regularization learning},
+  author={Liu, Yang and Zhao, Hang and Chan, Kelvin and Wang, Xintao and Loy, Chen Change and Qiao, Yu and Dong, Chao},
+  journal={Computational Visual Media},
+  volume={10},
+  number={2},
+  pages={375--395},
+  year={2024}
+}
+
+@article{vitoria2020chromagan,
+  title={ChromaGAN: Adversarial picture colorization with semantic class distribution},
+  author={Vitoria, Paul and Raad, Lara and Ballester, Coloma},
+  journal={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={2445--2454},
+  year={2020}
+}
+
+@inproceedings{zhu2017cycleGAN,
+  title={Unpaired image-to-image translation using cycle-consistent adversarial networks},
+  author={Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A},
+  booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+  pages={2223--2232},
+  year={2017}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SECTION 2 — BY MODEL FAMILY (GAN / DIFFUSION / TRANSFORMER / CNN)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%% CNN %%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{zhang2016colorful,
+  title={Colorful image colorization},
+  author={Zhang, Richard and Isola, Phillip and Efros, Alexei A},
+  booktitle={European Conference on Computer Vision},
+  pages={649--666},
+  year={2016},
+  publisher={Springer}
+}
+
+@article{baldassarre2017koalarization,
+  title={Deep koalarization: Image colorization using CNNs and Inception-ResNet-v2},
+  author={Baldassarre, Federico and Mor{\'\i}n, David G{\'o}mez and Rod{\'e}s-Guirao, Luis},
+  journal={arXiv preprint arXiv:1712.03400},
+  year={2017}
+}
+
+%%%%%%%%%%%%%% GAN %%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{isola2017pix2pix,
+  title={Image-to-image translation with conditional adversarial networks},
+  author={Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={1125--1134},
+  year={2017}
+}
+
+@inproceedings{su2020instanceAware,
+  title={Instance-aware image colorization},
+  author={Su, Jheng-Wei and Chu, Hsiang-Kai and Huang, Jia-Bin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7968--7977},
+  year={2020}
+}
+
+%%%%%%%%%%%%%% TRANSFORMERS %%%%%%%%%%%%%%%%%%%%%
+
+@article{kumar2021colorizationTransformer,
+  title={Colorization Transformer},
+  author={Kumar, Manoj and Weissenborn, Dirk and Kalchbrenner, Nal},
+  journal={arXiv preprint arXiv:2102.04432},
+  year={2021}
+}
+
+@inproceedings{huang2022unicolor,
+  title={Unicolor: A unified framework for multimodal colorization with transformer},
+  author={Huang, Zhi and Zhao, Ning and Liao, Jing},
+  booktitle={ACM Transactions on Graphics (TOG)},
+  volume={41},
+  number={6},
+  pages={1--16},
+  year={2022}
+}
+
+@inproceedings{yun2023icolorit,
+  title={iColoriT: Towards propagating local hints to the right region in interactive colorization by leveraging vision transformer},
+  author={Yun, Jiyoung and Lee, Sooyoung and Park, Minyeong and Choo, Jaegul},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={1787--1796},
+  year={2023}
+}
+
+%%%%%%%%%%%%%% DIFFUSION %%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{saharia2022palette,
+  title={Palette: Image-to-image diffusion models},
+  author={Saharia, Chitwan and Chan, William and Chang, Huiwen and Lee, Chris and Ho, Jonathan and Salimans, Tim and others},
+  booktitle={ACM SIGGRAPH Conference Proceedings},
+  pages={1--10},
+  year={2022}
+}
+
+@article{weng2023lcad,
+  title={L-CAD: Language-based colorization with any-level descriptions using diffusion priors},
+  author={Weng, Shuchen and Zhang, Peng and Li, Yifan and Li, Shiyin and Shi, Boxin},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={77174--77186},
+  year={2023}
+}
+
+@article{zabari2023diffusingColors,
+  title={Diffusing colors: Image colorization with text guided diffusion},
+  author={Zabari, Noam and Azulay, Ariel and Gorkor, Adam and Halperin, Tomer and Fried, Ohad},
+  journal={SIGGRAPH Asia Conference Papers},
+  pages={1--11},
+  year={2023}
+}
+
+@article{liang2025controlcolor,
+  title={Control Color: Multimodal Diffusion-Based Interactive Image Colorization},
+  author={Liang, Zhiwei and Li, Zongyong and Zhou, Shuo and Li, Chong and Loy, Chen Change},
+  journal={International Journal of Computer Vision},
+  year={2025}
+}
+
+@article{fang2025vangogh,
+  title={VanGogh: A Unified Multimodal Diffusion-based Framework for Video Colorization},
+  author={Fang, Zhen and Liu, Zihan and Zhu, Kang and Liu, Yixuan and Cheng, Kai-Lung and Zhai, Wen and others},
+  journal={arXiv preprint arXiv:2501.09499},
+  year={2025}
+}
+
+%%%%%%%%%%%%%% LANGUAGE-BASED %%%%%%%%%%%%%%%%%%%%%
+
+@article{manjunatha2018language,
+  title={Learning to color from language},
+  author={Manjunatha, Varun and Iyyer, Mohit and Boyd-Graber, Jordan and Davis, Larry},
+  journal={arXiv preprint arXiv:1804.06026},
+  year={2018}
+}
+
+%%%%%%%%%%%%%% EXEMPLAR-BASED %%%%%%%%%%%%%%%%%%%%%
+
+@inproceedings{zhang2019deepVideoExemplar,
+  title={Deep exemplar-based video colorization},
+  author={Zhang, B., He, M., Liao, J., Sander, P., Yuan, L., Bermak, A., and Chen, D.},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={8052--8061},
+  year={2019}
+}
+
+%%%%%%%%%%%%%% USER-GUIDED %%%%%%%%%%%%%%%%%%%%%
+
+@article{zhang2017userGuided,
+  title={Real-time user-guided image colorization with learned deep priors},
+  author={Zhang, Richard and Zhu, Jun-Yan and Isola, Phillip and others},
+  journal={arXiv preprint arXiv:1705.02999},
+  year={2017}
+}

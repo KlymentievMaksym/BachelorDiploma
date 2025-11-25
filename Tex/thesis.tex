@@ -1,96 +1,51 @@
-% ********** Приклад оформлення пояснювальної записки **********
-% *********  до атестаційної роботи ступеня бакалавра **********
-
-
 \documentclass{Utills/bachelor_thesis}
 
-% Додаткові пакети вносіть у цей файл
 \input{Utills/packages}
-\addbibresource{Utills/thesis.bib}
-
-% Додаткові визначення та перевизначення команд вносіть у цей файл
+\addbibresource{Utills/references.bib}
 \input{Utills/02_redefinitions}
-
-% % Бюрократичні відомості про автора роботи
 \input{Utills/data}
 
-
-% Починаємо верстку документа
 \begin{document}
+  \pagestyle{plain}
+  \setfontsize{14}
 
-\pagestyle{plain}
-\setfontsize{14}
+  \input{Utills/title}
+  \input{Utills/specification}
+  \input{Chapters/abstract}
 
-% % Створюємо титульну сторінку
-\input{Utills/title}
+  %\pagenumbering{gobble}
+  \tableofcontents
+  \cleardoublepage
+  %\pagenumbering{arabic}
 
-% Створюємо завдання
-\input{Utills/specification}
+  % \input{Chapters/shortings}
 
-% Створюємо анотації
-% \setcounter{page}{4}    %!!! -- продумати, як автоматизувати номер сторінки
-\input{Chapters/abstract}
+  \input{Chapters/introduction}
 
-% Створюємо зміст
-%\pagenumbering{gobble}
-\tableofcontents
-\cleardoublepage
-%\pagenumbering{arabic}
-%\setcounter{page}{8}    %!!! -- продумати, як автоматизувати номер сторінки
+  \foreach \x in {1, 2, ..., 4} {
+    \input{Chapters/chapter_0\x}
+  }
 
-% Створюємо перелік умовних позначень, скорочень і термінів
-% Якщо цей розділ вам не потрібен, просто закоментуйте два наступних рядка
-% \shortings
-% \input{Chapters/a2_shortings}
+  \input{Chapters/conclusions}
 
-% Створюємо вступ
-\intro
-\input{Chapters/introduction}
+  % Додаємо бібліографію
+  \defbibenvironment{bibliography}
+    {\list
+      {\printfield[labelnumberwidth]{labelnumber}}
+      {\setfontsize{14}%
+      }}
+    {\endlist}
+    {\item}
 
-% Додаємо глави
-% Якщо ваша робота містить менше або більше глав - модифікуйте наступні 
-% рядки відповідним чином
-\input{Chapters/c1_chapter_01}
-\input{Chapters/c2_chapter_02}
-\input{Chapters/c3_chapter_03}
+  % Це посилання \cite{he2018deepExemplar}.
+  \printbibliography[heading=bibintoc,title={Перелік посилань}]
 
 
-% Створюємо висновки
-\conclusions
-\input{Chapters/conclusions}
 
-% Додаємо бібліографію
-%%%%%%% Якщо ви не використовуєте bibtex, оце все треба закоментувати звідси...
-\defbibenvironment{bibliography}
-  {\list
-     {\printfield[labelnumberwidth]{labelnumber}}
-     {\setfontsize{14}%
-     }}
-  {\endlist}
-  {\item}
-
-\printbibliography[heading=bibintoc,title={Перелік посилань}]
-%%%%%%% ...по осюди
-
-% % Якщо у вас виникли проблеми з бібтехом (у мене, наприклад, виникли), то замість бібтеху
-% % можна використати менш приємний, але завжди працюючий спосіб: вписати та оформити бібліографію вручну
-% % Для цього закоментуйте команду \printbibliography та розкоментуйте наступний рядок
-% % VVV оцей рядок розкоментуйте VVV
-% %\input{Chapters/w2_bibliography}
-% % ^^^ оцей-оцей ^^^
-% % Бібліографія вноситься у файл "w2_bibliography.tex"
-
-% %%% А це взагалі перестало працювати :(
-% \bibliographystyle{ugost2008}
-% \bibliography{thesis}
-
-
-% Створюємо додатки (дивись у файли додатків для необхідних пояснень)
-% Якщо ви маєте меншу або більшу кількість додатків, модифікуйте наступні 
-% рядки відповідним чином
-% Якщо ви не маєте додатків, просто закоментуйте наступні рядки
-% \input{Chapters/z1_appendix_A}
-% \input{Chapters/z2_appendix_B}
-
-% Нарешті
+  % Створюємо додатки (дивись у файли додатків для необхідних пояснень)
+  % Якщо ви маєте меншу або більшу кількість додатків, модифікуйте наступні 
+  % рядки відповідним чином
+  % Якщо ви не маєте додатків, просто закоментуйте наступні рядки
+  % \input{Chapters/z1_appendix_A}
+  % \input{Chapters/z2_appendix_B}
 \end{document}
