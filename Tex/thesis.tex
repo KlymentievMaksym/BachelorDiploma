@@ -1,7 +1,15 @@
+% !TEX program = lualatex
+% !BIB program = biber
+
+
 \documentclass{Utills/bachelor_thesis}
 
 \input{Utills/packages}
-\addbibresource{Utills/references.bib}
+
+\addbibresource{./Bibliography/multiple.bib}
+\addbibresource{./Bibliography/single_image.bib}
+\addbibresource{./Bibliography/single_video.bib}
+
 \input{Utills/data}
 \input{Utills/redefinitions}
 
@@ -9,12 +17,12 @@
   \pagestyle{plain}
   \setfontsize{14}
 
-  \input{Utills/title}
+  \input{Chapters/title}
   % \input{Utills/title_}
   % \frenchspacing
   % \doublespacing          % інтервал "1,5" між рядками, тепер навічно
   % \setfontsize{14}
-  \input{Utills/specification}
+  \input{Chapters/specification}
   \input{Chapters/abstract}
 
   % \pagenumbering{gobble}
@@ -42,6 +50,7 @@
     {\item}
 
   \printbibliography[heading=bibintoc,title={Перелік посилань}]
+  % \printbibliography[title={Перелік посилань}]
 
 
 

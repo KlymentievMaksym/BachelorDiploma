@@ -20,11 +20,21 @@
 
 % мовні пакети
 \RequirePackage{cmap}                                   % для кодування шрифтів у pdf
-\RequirePackage[T2A]{fontenc}                           % пакет для підтримки кирилічних шрифтів
-\RequirePackage[utf8]{inputenc}                         % пакет для підтримки текстів у кодуванні UTF-8
+% \RequirePackage[T2A]{fontenc}                           % пакет для підтримки кирилічних шрифтів
+% \RequirePackage[utf8]{inputenc}                         % пакет для підтримки текстів у кодуванні UTF-8
 \RequirePackage[english,ukrainian]{babel}               % пакет для підтримки української та російської мов
 \RequirePackage{amssymb,amsfonts,amsmath,amsthm,amscd}  % потрібні символи в режимі математичних формул
-\RequirePackage[backend=bibtex,style=numeric]{biblatex} % пакет BibLatex для коректної бібліографії
+\RequirePackage[
+        % backend=bibtex,
+        % style=numeric
+        backend=biber,
+        style=numeric,
+        % style=gost-numeric,
+        % style=ieee,
+        language=auto,
+        autolang=other,
+        sorting=none,
+]{biblatex} % пакет BibLatex для коректної бібліографії
 
 % \RequirePackage{upgreek}                                % пакет для прямих грецьких літер
 % \RequirePackage{textcomp}                               % потрібні символи в режимі математичних формул
@@ -62,7 +72,7 @@
 % \RequirePackage[titles,subfigure]{tocloft}              % пакет для ручного керування стилем змісту
 \RequirePackage[titles]{tocloft}                        % пакет для ручного керування стилем змісту
 
-\RequirePackage{url}                    % пакет для коректного представлення інтернет-посилань у "Переліку посилань"
+\RequirePackage{xurl}                    % пакет для коректного представлення інтернет-посилань у "Переліку посилань"
 \RequirePackage[hidelinks]{hyperref}    % пакет для гіперпосилань у змісті
 
 \RequirePackage{listings}               % пакет для відображення форматування вихідних кодів
