@@ -1,0 +1,5 @@
+*thesis*
+!*.tex
+!*.pdf
+!*.bib
+!*.cls
