@@ -1,22 +1,34 @@
-# Змінні
-PYTHON = python
 VENV = .venv
-BIN = $(VENV)/Scripts
+ifeq ($(OS), Windows_NT)
+    PYTHON = python
+    BIN = $(VENV)/Scripts
+    PIP_LOCAL = $(BIN)/python.exe -m pip
+    RM = powershell -Command "Remove-Item -Recurse -Force"
+else
+    PYTHON = python3
+    BIN = $(VENV)/bin
+    PIP_LOCAL = $(BIN)/pip
+    RM = rm -rf
+endif
+ACTIVATE = $(BIN)/activate
 
-.PHONY: setup update clean
+.PHONY: init setup install update clean
 
-setup: $(VENV)/bin/activate
+init: update setup
 
-$(VENV)/bin/activate:
+setup: $(ACTIVATE) install
+
+$(ACTIVATE):
 	$(PYTHON) -m venv $(VENV)
-	$(BIN)/python.exe -m pip install --upgrade pip
-	$(BIN)/pip install -e ./colorization-engine
-	$(BIN)/pip install -r ./colorization-app/requirements.txt
+	$(PIP_LOCAL) install --upgrade pip
+
+install: $(ACTIVATE)
+	$(PIP_LOCAL) install -e ./colorization-engine
+	$(PIP_LOCAL) install -r ./colorization-app/requirements.txt
 
 update:
 	git submodule update --init --recursive
 	git submodule foreach git pull origin main
 
 clean:
-	rm -rf $(VENV)
-	find . -type d -name "__pycache__" -exec rm -rf {} +
+	$(RM) $(VENV)
