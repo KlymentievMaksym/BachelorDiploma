@@ -29,7 +29,6 @@ install: $(ACTIVATE)
 update:
 	git submodule update --init --recursive
 	git submodule foreach "git checkout main && git pull origin main && git fetch --tags"
-# 	git submodule foreach git pull origin main
 
 clean:
 	$(RM) $(VENV)
