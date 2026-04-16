@@ -6,7 +6,7 @@ __pycache__/
 *.py[cod]
 
 # Data & Heavy Files (Найважливіше!)
-data/
+data/**
 checkpoints/
 outputs/
 *.pth
